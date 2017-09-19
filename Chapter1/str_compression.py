@@ -1,4 +1,6 @@
 def str_compression(myString):
+	#trying to implement dictionary but couldnt due to same key values
+	#
 	# dicty = {}
 	# newStr = ""
 	# for i in myString:
@@ -14,6 +16,8 @@ def str_compression(myString):
 	# if len(newStr) >= len(myString):
 	# 	return myString
 	# return newStr
+
+	#using a counter and editing the string
 	newStr = myString[0]
 	count = 1
 	for i in range(1,len(myString)):

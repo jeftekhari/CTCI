@@ -1,3 +1,5 @@
+
+## Other Data Structures ##
 def is_unique(word):
 	dick = {}
 	for i in word:
@@ -9,6 +11,7 @@ def is_unique(word):
 	print("yes")
 	return 1
 
+## No Other Data Structures
 def is_unique1(word):
 	for i in range(0, len(word)):
 		for k in range(i + 1, len(word)):
